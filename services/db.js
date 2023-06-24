@@ -29,7 +29,7 @@ adminimage:String
 
 // =============bday AddItems[bdayitems]============
 //create/modal using mongoose to storedocument/data
-const Bdayitem = mongoose.model('Bdayitem',{
+const Bdayitem = mongoose.model('weddingitem',{
     id:String,
     theme:String,
     image:String,
@@ -40,7 +40,7 @@ const Bdayitem = mongoose.model('Bdayitem',{
 
 // =============newborn AddItems [newbornitems]============
 //create/modal using mongoose to storedocument/data
-const Newbornitem = mongoose.model('Newbornitem',{
+const Newbornitem = mongoose.model('corporateitem',{
     id:String,
     theme:String,
     image:String,
@@ -50,7 +50,7 @@ const Newbornitem = mongoose.model('Newbornitem',{
 
 // =============ceremony AddItems [ceremonyitems]============
 //create/modal using mongoose to storedocument/data
-const Ceremonyitem = mongoose.model('Ceremonyitem',{
+const Ceremonyitem = mongoose.model('socialitem',{
     id:String,
     theme:String,
     image:String,
@@ -60,7 +60,7 @@ const Ceremonyitem = mongoose.model('Ceremonyitem',{
 
 // ==================Bdaybooking [bdaybookings]==============
 //create/modal using mongoose to storedocument/data
-const Bdaybooking = mongoose.model('Bdaybooking',{
+const Bdaybooking = mongoose.model('weddingbooking',{
     babyname:String,
     username:String,
     mobile:Number,
@@ -78,7 +78,7 @@ const Bdaybooking = mongoose.model('Bdaybooking',{
 
 // ==================newbornbooking [newbornbookings]==============
 //create/modal using mongoose to storedocument/data
-const Newbornbooking = mongoose.model('Newbornbooking',{
+const Newbornbooking = mongoose.model('corporatebooking',{
     babyname:String,
     username:String,
     mobile:Number,
@@ -95,7 +95,7 @@ const Newbornbooking = mongoose.model('Newbornbooking',{
 })
 
 // =========================ceremonybooking [ceremonybookings]=================
-const Ceremonybooking = mongoose.model('Ceremonybooking',{
+const Ceremonybooking = mongoose.model('socialbooking',{
     babyname:String,
     username:String,
     mobile:Number,
